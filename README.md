@@ -1,5 +1,5 @@
 # ContadoresArduino
-Proyecto de arduino con entradas/salidas paralelas, cuenta con tres modos, contador 7 segmentos, contador binario y recorrido led (arreglo de 8 leds)
+Proyecto de Arduino con entradas/salidas paralelas, cuenta con tres modos, contador 7 segmentos, contador binario y recorrido led (arreglo de 8 leds)
 
 ## Funcionalidades.
 1. Contador automático 0 - 9 ida y vuelta (display 7 segmentos).
@@ -19,11 +19,11 @@ Proyecto de arduino con entradas/salidas paralelas, cuenta con tres modos, conta
 
 ## Operación.
 
-Al conectar el circuito al arduino se mostrará en el display un menú del 1 al 6 que corresponede a cada uno de los programas, para entrar al programa debe presionar el botón conectado al pin 4 del arduino, una vez adentro puede presionarlo otra vez para salir, para seleccionar los demás programas use los botones conectados la pin 2 y 3 para aumentar o decrementar el número, tambien estos serán los botones para manupular los programas manuales.
+Al conectar el circuito al Arduino se mostrará en el display un menú del 1 al 6 que corresponde a cada uno de los programas, para entrar al programa debe presionar el botón conectado al pin 4 del Arduino, una vez adentro puede presionarlo otra vez para salir, para seleccionar los demás programas use los botones conectados al pin 2 y 3 para aumentar o decrementar el número, también estos serán los botones para manipular los programas manuales.
 
 Puede ver el proyecto [aqui](https://www.tinkercad.com/things/50wdIGasXaj-brilliant-maimu/editel?sharecode=G_ztzbXRIMwCeVxeprYE33Swn8ezzcdipENngsDLMLU).
 
-## Componentes fisicos necesarios.
+## Componentes físicos necesarios.
 
 * Placa Arduino UNO o similar. x1 
 * Compuertas lógicas AND (7408). x4
@@ -34,6 +34,6 @@ Puede ver el proyecto [aqui](https://www.tinkercad.com/things/50wdIGasXaj-brilli
 * Resistencias 10k. x3 (leer nota)
 * Botones. x3
 
-> Las resistencias de 10k son para los botones que van a los pines de entrada, en https://www.tinkercad.com/ no funcionaron correctanente pero te recomiendo que en fisico las agregues para proteger tu arduino.
+> Las resistencias de 10k son para los botones que van a los pines de entrada, en https://www.tinkercad.com/ no funcionaron correctamente, pero te recomiendo que en físico las agregues para proteger tu Arduino.
 
 ![Captura circuito](./mdsource/cricuito.PNG)
